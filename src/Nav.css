@@ -1,0 +1,25 @@
+@import './Palette.css';
+
+/**
+.navLink {  
+    display: block;
+    position: absolute;
+    margin-left: 50vw;
+    justify-self: right;
+    align-self: flex-end;
+
+}
+*/
+
+.navLink {  
+    display: inline-flex;
+    margin-right: 10px;
+    font-size: calc(10px + 2vmin);
+    float: right;
+    /* position: absolute; */
+    /* margin-top: 0vh; */
+    /* margin-left: 50vw; */
+    /* justify-self: right; */
+    /* align-self: flex-end; */
+  
+  }
