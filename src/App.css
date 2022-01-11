@@ -1,8 +1,8 @@
-@import './Palette.css';
+@import './Components/Palette.css';
 
 .App {
   text-align: center;
-  background-image: linear-gradient(to top right, var(--paletteColor5), var(--paletteColor3));
+  background-image: linear-gradient(to top right, var(--paletteColor5), var(--paletteColor4));
   min-height: 100vh;
 }
 

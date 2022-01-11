@@ -1,0 +1,19 @@
+.section {
+    width: 70vw;
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+    padding: 1.2rem;
+    margin: 14rem;
+}
+
+.section-content {
+    /* align-items: flex-start; */
+    /* display: block; */
+    text-align: left;
+    /* padding: 0rem 3rem; */
+    /* margin: 0 auto; */
+    /* display: inline-flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}

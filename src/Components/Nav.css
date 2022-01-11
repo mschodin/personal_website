@@ -1,16 +1,5 @@
 @import './Palette.css';
 
-/**
-.navLink {  
-    display: block;
-    position: absolute;
-    margin-left: 50vw;
-    justify-self: right;
-    align-self: flex-end;
-
-}
-*/
-
 .navLink {  
     display: inline-flex;
     margin-right: 10px;
@@ -26,4 +15,10 @@
 .navLink:hover {
     color:darkgrey;
     filter:grayscale(50);
+    cursor: pointer;
+}
+
+.customNavBar {
+    width: 100%;
+    height: 5vh;
 }

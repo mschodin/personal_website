@@ -1,21 +1,33 @@
 import './App.css';
 import React from 'react';
-import NavBar from './Nav';
-import Home from './Home';
-import About from './About';
-import Experience from './Experience';
-import { Routes, Route, Link } from "react-router-dom";
+import NavBar from './Components/Nav';
+import Home from './Components/Home';
+import About from './Components/About';
+import Experience from './Components/Experience';
+import Section from './Components/Section';
+import Resume from './Components/Resume';
 
 function App() {
+  var home = <Home />;
+  var about = <About />;
+  var experience = <Experience />;
+  var resume = <Resume />;
+
   return (
     <div className="App">
-        {/* <NavBar/> */}
         <NavBar/>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="experience" element={<Experience />} />
-        </Routes>
+        <Section
+          content={about}
+          id="section1"
+        />
+        <Section
+          content={experience}
+          id="section2"
+        />
+        <Section
+          content={resume}
+          id="section3"
+        />
     </div>
   );
 }
