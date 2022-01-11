@@ -1,5 +1,11 @@
+.resume-container {
+    display:inline-flex;
+    align-items: center;
+}
+
 .resume-image {
-    /* background-image: url('../Assets/MichaelSchodinResume2021.jpg'); */
-    width: 70%;
-    /* height: 500px; */
+    width: 60%;
+    margin: auto;
+    box-shadow: 5px 5px 10px;
+    border: 5px black;
 }
