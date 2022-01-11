@@ -14,12 +14,16 @@
 .navLink {  
     display: inline-flex;
     margin-right: 10px;
-    font-size: calc(10px + 2vmin);
+    /* font-size: calc(10px + 2vmin); */
+    font-size: 1.5em;
     float: right;
-    /* position: absolute; */
-    /* margin-top: 0vh; */
-    /* margin-left: 50vw; */
-    /* justify-self: right; */
-    /* align-self: flex-end; */
-  
-  }
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: .4em .6em .4em;
+}
+
+.navLink:hover {
+    color:darkgrey;
+    filter:grayscale(50);
+}
