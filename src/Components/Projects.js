@@ -9,7 +9,7 @@ function Projects(props) {
                 <hr/>
                 <div id="grapevinesexp" className='proj'>
                     <div className="pic-area">
-                        <img className="proj-pic" src={require('../Assets/grapevinesSite.PNG')}/>
+                        <img className="proj-pic" src={require('../Assets/grapevinesSite.png')}/>
                     </div>
                     <div className="desc-area-right">
                         <h1>The Grapevines SPA Website</h1>
@@ -45,7 +45,7 @@ function Projects(props) {
                 </div>
                 <div id="valorantexp" className='proj'>
                     <div className="pic-area">
-                        <img className="proj-pic" src={require('../Assets/valorantexp.PNG')}/>
+                        <img className="proj-pic" src={require('../Assets/valorantexp.png')}/>
                     </div>
                     <div className="desc-area-right">
                         <h1>Valorant Scrim Scheduler App</h1>
@@ -78,7 +78,7 @@ function Projects(props) {
                         </p>
                     </div>
                     <div className="pic-area">
-                        <img className="proj-pic" src={require('../Assets/maskexp.PNG')}/>
+                        <img className="proj-pic" src={require('../Assets/maskexp.png')}/>
                     </div>
                 </div>
             </div>
