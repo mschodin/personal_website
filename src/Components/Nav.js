@@ -9,6 +9,14 @@ function NavBar(props) {
                 <li className="navLink">
                     <Link
                         activeClass="active"
+                        to="section4"
+                        offset={-70}
+                        duration={500}
+                    >Contact</Link>
+                </li>
+                <li className="navLink">
+                    <Link
+                        activeClass="active"
                         to="section3"
                         offset={-70}
                         duration={500}
@@ -18,7 +26,7 @@ function NavBar(props) {
                     <Link
                         activeClass="active"
                         to="section2"
-                        offset={-250}
+                        offset={-70}
                         duration={500}
                     >Work Experience</Link>
                 </li>
@@ -31,6 +39,7 @@ function NavBar(props) {
                     >About</Link>
                 </li>
             </ul>
+            <hr className="navline"/>
         </>
     );
 };

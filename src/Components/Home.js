@@ -1,33 +1,27 @@
 import React from 'react';
+import './Home.css';
 
 function Home(props) {
     return (
         <>
-            <div style={{backgroundColor: "blue" }}>
-                <p>
-                    test1
+            <div>
+                <h1 className="name">Michael Schodin</h1>
+            </div>
+            <div>
+                <p className="desc">
+                    Software Engineer driven by learning the latest tools and technologies.
                 </p>
-                <p>
-                    test1
-                </p>
-                <p>
-                    test1
-                </p>
-                <p>
-                    test1
-                </p>
-                <p>
-                    test1
-                </p>
-                <p>
-                    test1
-                </p>
-                <p>
-                    test1
-                </p>
-                <p>
-                    test1
-                </p>
+            </div>
+            <div>
+                <a href="mailto:michael.schodin@gmail.com">
+                    <img className="logo" src={require('../Assets/email.png')} />    
+                </a>
+                <a href="https://www.linkedin.com/in/mschodin">
+                    <img className="logo" src={require('../Assets/linkedin.png')} /> 
+                </a>
+                <a href="https://www.github.com/mschodin">
+                    <img className="logo" src={require('../Assets/GitHub-Mark-64px.png')} /> 
+                </a>
             </div>
         </>
     );

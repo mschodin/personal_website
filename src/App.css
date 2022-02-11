@@ -1,8 +1,10 @@
 @import './Components/Palette.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 
 .App {
   text-align: center;
-  background-image: linear-gradient(to top right, var(--paletteColor5), var(--paletteColor4));
+  background-image: linear-gradient(to top right, var(--paletteColor5Dark), var(--paletteColor3Dark));
   min-height: 100vh;
 }
 
