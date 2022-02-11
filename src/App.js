@@ -5,12 +5,14 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Experience from './Components/Experience';
 import Section from './Components/Section';
+import Projects from './Components/Projects';
 import Resume from './Components/Resume';
 
 function App() {
   var home = <Home />;
   var about = <About />;
   var experience = <Experience />;
+  var projects = <Projects />;
   var resume = <Resume />;
 
   return (
@@ -29,8 +31,12 @@ function App() {
           id="section2"
         />
         <Section
-          content={resume}
+          content={projects}
           id="section3"
+        />
+        <Section
+          content={resume}
+          id="section4"
         />
     </div>
   );

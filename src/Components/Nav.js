@@ -9,10 +9,18 @@ function NavBar(props) {
                 <li className="navLink">
                     <Link
                         activeClass="active"
-                        to="section3"
+                        to="section4"
                         offset={-70}
                         duration={500}
                     >Resume</Link>
+                </li>
+                <li className="navLink">
+                    <Link
+                        activeClass="active"
+                        to="section3"
+                        offset={-70}
+                        duration={500}
+                    >Projects</Link>
                 </li>
                 <li className="navLink">
                     <Link
