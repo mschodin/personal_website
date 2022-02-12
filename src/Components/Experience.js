@@ -9,6 +9,9 @@ function Experience(props) {
                 <hr/>
                 <div id="taxactexp" className='job'>
                     <h1>TaxAct</h1>
+                    <p>
+                        Software Engineer
+                    </p>
                     <ul>
                         <li>
                             Write modern, scalable, robust code for the Tax Pro product to develop new features
@@ -26,6 +29,9 @@ function Experience(props) {
                 </div>
                 <div id="opcommexp" className='job'>
                     <h1>OpComm Inc</h1>
+                    <p>
+                        Software Engineer
+                    </p>
                     <ul>
                         <li>
                             Created and upgraded 22 reports & analytics to be dynamic, clear, and fast to break down
@@ -38,6 +44,9 @@ function Experience(props) {
                 </div>
                 <div id="collinsexp" className='job'>
                     <h1>Collins Aerospace</h1>
+                    <p>
+                        Software Engineer Co-op
+                    </p>
                     <ul>
                         <li>
                             Developed structures and interfaces to translate messages for facilitation of air-to-ground
@@ -54,6 +63,9 @@ function Experience(props) {
                 </div>
                 <div id="uiowaexp" className='job'>
                     <h1>University of Iowa</h1>
+                    <p>
+                        Teaching Assistant
+                    </p>
                     <ul>
                         <li>
                             Led office hours teaching internet protocols, network architectures, and packet transport
