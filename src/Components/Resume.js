@@ -5,7 +5,9 @@ function Resume(props) {
     return (
         <>
             <div className="resume-container">
-                <img className="resume-image" src={require('../Assets/MichaelSchodinResume2022.png')} />    
+                <a download href='../Assets/MichaelSchodinResume.pdf'>
+                    <img className="resume-image" src={require('../Assets/MichaelSchodinResume2022.png')} alt="Resume Path not found"/>    
+                </a>
             </div>
         </>
     );
