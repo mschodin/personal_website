@@ -6,6 +6,7 @@
   text-align: center;
   background-image: linear-gradient(to top right, var(--paletteColor5Dark), var(--paletteColor3Dark));
   min-height: 100vh;
+  overflow: auto;
 }
 
 .App-logo {
