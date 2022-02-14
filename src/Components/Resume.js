@@ -1,11 +1,14 @@
 import React from 'react';
 import './Resume.css';
+import resumePDF from '../Assets/MichaelSchodinResume.pdf';
 
 function Resume(props) {
     return (
         <>
             <div className="resume-container">
-                <img className="resume-image" src={require('../Assets/MichaelSchodinResume2022.png')} alt="Resume Path not found"/>    
+                <a download href={resumePDF}>
+                    <img className="resume-image" src={require('../Assets/MichaelSchodinResume2022.png')} alt="Resume Path not found"/>    
+                </a>
             </div>
         </>
     );
